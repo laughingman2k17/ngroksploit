@@ -6,6 +6,9 @@
 - Mingw-w64 Compiler
 - ngrok 
 ## ⭕️ Getting Started
-1. ``` cd ngroksplit ``` 
-2. ``` ngrok ```
-3. ``` python ngroksploit.py ```
+. ``` apt-get install mingw-w64 ``
+. ``` cd ngroksplit ``` 
+. ``` ngrok tcp 22 or http 80  ```
+. ``` python ngroksploit.py ```
+. ``` dpkg --add-architecture i386 && apt-get update &&
+apt-get install wine32 ```
